@@ -4,8 +4,11 @@
 
 ## Online Boutique with Splunk OTel instrumentation
 
-In this fork I edited part of GCP micorservices-demo's sourcecode, substituting the default OpenTelemetry manual instrumentation with Splunk OpenTelemetry libraries' functions. I've also added additional an additional kustomization for Splunk's Otel agent.
+In this fork I edited part of GCP micorservices-demo's sourcecode, substituting the default OpenTelemetry manual instrumentation with Splunk OpenTelemetry libraries' functions for services written in Python (emailservice, recommendationservice, loadgenerator). I've also added Kustomization to set Otel-specific env variables.
 
+[Manually instrument Python applications for Splunk Observability Cloud](https://help.splunk.com/en/splunk-observability-cloud/manage-data/available-data-sources/supported-integrations-in-splunk-observability-cloud/apm-instrumentation/instrument-a-python-application/manual-instrumentation#d82e786968a074fc3af803c1d504a5a7e--en__python-manual-instrumentation)
+
+[Instrument your Python application for Splunk Observability Cloud](https://help.splunk.com/en/splunk-observability-cloud/manage-data/available-data-sources/supported-integrations-in-splunk-observability-cloud/apm-instrumentation/instrument-a-python-application/instrument-your-python-application#d0359e5abe2994e8aa76ce37a3ed9dc60--en__instrument-python-applications)
 
 <!--
 ![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Main/Release/badge.svg)
