@@ -1,6 +1,13 @@
 <p align="center">
 <img src="/src/frontend/static/icons/Hipster_HeroLogoMaroon.svg" width="300" alt="Online Boutique" />
 </p>
+
+## Online Boutique with Splunk OTel instrumentation
+
+In this fork I edited part of GCP micorservices-demo's sourcecode, substituting the default OpenTelemetry manual instrumentation with Splunk OpenTelemetry libraries' functions. I've also added additional an additional kustomization for Splunk's Otel agent.
+
+
+<!--
 ![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Main/Release/badge.svg)
 
 **Online Boutique** is a cloud-first microservices demo application.  The application is a
@@ -166,3 +173,4 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 - [Google Cloud Next'18 London – Keynote](https://youtu.be/nIq2pkNcfEI?t=3071)
   showing Stackdriver Incident Response Management
 - [Microservices demo showcasing Go Micro](https://github.com/go-micro/demo)
+-->
